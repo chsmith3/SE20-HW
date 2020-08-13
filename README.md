@@ -4,4 +4,4 @@
 
 Repository for practicing the topics covered in the homework assignments.
 
-
+Also used for practicing using git from the command line.
