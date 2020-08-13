@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='SE20-HW',
@@ -8,7 +8,7 @@ setup(
     author_email='hmkachha@ncsu.edu',
     url='https://github.com/chsmith/SE20-HW',
 
-    packages=['code'],
+    packages=find_packages(include=['code', 'code.*', 'data']),
     long_description="""demonstrating tools for a good repo""",
     classifiers=[
         "License :: MIT License",
