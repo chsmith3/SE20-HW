@@ -8,7 +8,7 @@ setup(
     author_email='hmkachha@ncsu.edu',
     url='https://github.com/chsmith/SE20-HW',
 
-    packages=find_packages(include=['SE20-HW', 'SE20-HW.*', 'data']),
+    packages=find_packages(include=['se20hw', 'se20hw.*', 'data']),
     long_description="""demonstrating tools for a good repo""",
     classifiers=[
         "License :: MIT License",

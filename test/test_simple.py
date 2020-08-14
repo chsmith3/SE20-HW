@@ -1,4 +1,4 @@
-from SE20-HW.simple import square
+from se20hw.simple import square
 
 
 def test_square():
